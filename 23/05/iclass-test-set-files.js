@@ -39,20 +39,21 @@ main = async function () {
         // console.log(existedFile.length)
         // break
         if (existedFile.length > 1) {
-            for (let j = 1; existedFile.length; j++) {
+            for (let j = 1; j < existedFile.length; j++) {
                 let fileRow = existedFile.eq(j)
                 fileRow.find(`a[original-title="刪除"]`).click()
                 await sleep(500)
             }
-            let giveScoreButton = $(`#give-score:visible:first .popup-content:visible:first .popup-footer:visible:first button.button-green:visible:first`)
-            giveScoreButton.click()
+            let giveScoreButtonFile = $(`#give-score:visible:first .popup-content:visible:first .popup-footer:visible:first button.button-green:visible:first`)
+            giveScoreButtonFile.click()
+            await sleep(500)
         }
 
         if (existedFile.length > 0) {
             let closeIcon = $(`#give-score:visible:first .popup-header:visible:first a[close-popup="give-score"]`)
             closeIcon.click()
             // break
-            await sleep(3000)
+            await sleep(500)
             // break // 測試用
             continue
         }
