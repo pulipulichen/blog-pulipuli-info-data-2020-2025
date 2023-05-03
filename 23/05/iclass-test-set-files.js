@@ -49,6 +49,15 @@ main = async function () {
             await sleep(500)
         }
 
+        let scoreInput = $(`#give-score:visible:first .popup-content:visible:first .score-box input[name="score"]`)
+        if (scoreInput.val() !== score + '') {
+            scoreInput.val(score).change().blur()
+
+            let giveScoreButtonFile = $(`#give-score:visible:first .popup-content:visible:first .popup-footer:visible:first button.button-green:visible:first`)
+            giveScoreButtonFile.click()
+            await sleep(500)
+        }
+
         if (existedFile.length > 0) {
             let closeIcon = $(`#give-score:visible:first .popup-header:visible:first a[close-popup="give-score"]`)
             closeIcon.click()
@@ -71,7 +80,7 @@ main = async function () {
         await sleep(500)
 
         let fileList = $(`.file-list:visible:first`)
-        while(fileList.find(`.row`).length > 1) {
+        while(fileList.find(`.row`).length > 1 || fileList.find(`.row`).length === 0) {
             await sleep(500)
         }
         let fileCheckbox = fileList.find(`.row.file-list-item .check input[type="checkbox"]`)
@@ -86,7 +95,9 @@ main = async function () {
 
         await sleep(500)
 
-        let scoreInput = $(`#give-score:visible:first .popup-content:visible:first .score-box input[name="score"]`)
+        // --------------------
+
+        // let scoreInput = $(`#give-score:visible:first .popup-content:visible:first .score-box input[name="score"]`)
         scoreInput.val(score).change().blur()
         // scoreInput[0].dispatchEvent(eventChange)
 
