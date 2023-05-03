@@ -61,7 +61,7 @@ main = async function () {
         let selectFileButton = $(`.field.homework-data:visible .select-file button:first`)
         // console.log(selectFileButton.length)
         selectFileButton.click()
-        await sleep(100)
+        await sleep(500)
 
         let searchInput = $(`.search-key:visible input`)
         searchInput.val(prependFilename + '_' + stuID + '.pdf').change()
