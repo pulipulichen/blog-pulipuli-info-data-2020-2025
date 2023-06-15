@@ -73,8 +73,18 @@ main = async function () {
         await sleep(500)
 
         let searchInput = $(`.search-key:visible input`)
+        while (searchInput.length === 0) {
+            await sleep(500)
+            searchInput = $(`.search-key:visible input`)
+        }
         searchInput.val(prependFilename + '_' + stuID + '.pdf').change()
-        searchInput[0].dispatchEvent(eventChange)
+        try {
+            searchInput[0].dispatchEvent(eventChange)
+        } catch (e) {
+          console.error(prependFilename + '_' + stuID + '.pdf')
+          throw e
+        }
+        
 
         let searchButton = $(`.search-btn a:first:visible`).click()
         await sleep(500)
