@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" modified="2024-01-19T19:46:19.498Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="FuqVORzKt9bCOrFG5Rh3" version="22.1.21" type="google">
+  <diagram name="Page-1" id="NfQ5GAetXnyKgYn9vgN-">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8IQJVCJHFQWM88S-F640-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-1" target="8IQJVCJHFQWM88S-F640-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="249" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-1" value="館員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-2" target="8IQJVCJHFQWM88S-F640-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-2" value="臨時工作人員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-3" value="讀者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="610" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-7" target="8IQJVCJHFQWM88S-F640-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="293" y="319" />
+              <mxPoint x="245" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" target="8IQJVCJHFQWM88S-F640-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="319" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="294" y="319" />
+              <mxPoint x="405" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-7" value="電腦" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="262.59" y="258.2" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-9" target="8IQJVCJHFQWM88S-F640-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-9" value="智慧型手機" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.cell_phone_iphone_proportional;labelBackgroundColor=default;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="220" y="505.5" width="35.17" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-38" target="8IQJVCJHFQWM88S-F640-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-38" target="8IQJVCJHFQWM88S-F640-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-2" target="8IQJVCJHFQWM88S-F640-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-13" value="圖書館自動化系統" style="swimlane;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="170" y="350" width="150" height="100" as="geometry">
+            <mxRectangle x="310" y="440" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-12" value="書目&lt;br&gt;資料庫" style="shape=datastore;whiteSpace=wrap;html=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="8IQJVCJHFQWM88S-F640-13">
+          <mxGeometry x="45.01" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-14" target="8IQJVCJHFQWM88S-F640-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-14" value="館藏圖書" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="434" y="615" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-15" value="圖書館工作區" style="swimlane;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="414" y="580" width="110" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-17" value="書架" style="swimlane;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="500" y="330" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-18" value="電子紙&lt;br&gt;貨架標籤" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="8IQJVCJHFQWM88S-F640-17">
+          <mxGeometry x="10" y="45" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-16" value="&lt;font face=&quot;TW-Sung&quot;&gt;館藏圖書&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="8IQJVCJHFQWM88S-F640-17">
+          <mxGeometry x="10" y="110" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-22" value="架位管理系統" style="swimlane;fontStyle=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="150" height="100" as="geometry">
+            <mxRectangle x="310" y="440" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-20" value="架位配置資料庫" style="shape=datastore;whiteSpace=wrap;html=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="8IQJVCJHFQWM88S-F640-22">
+          <mxGeometry x="79.99999999999997" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-46" value="架位空間&lt;br&gt;評估套件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8IQJVCJHFQWM88S-F640-22">
+          <mxGeometry x="14" y="30" width="56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-22" target="8IQJVCJHFQWM88S-F640-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="608" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-38" target="8IQJVCJHFQWM88S-F640-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="544" />
+              <mxPoint x="400" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-38" value="派架導航員APP" style="swimlane;fontFamily=Noto Sans Traditional Chinese;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTraditional%2BChinese;" vertex="1" parent="1">
+          <mxGeometry x="280" y="483" width="110" height="105" as="geometry">
+            <mxRectangle x="310" y="440" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-40" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;" vertex="1" parent="8IQJVCJHFQWM88S-F640-38">
+          <mxGeometry x="24" y="32.5" width="62" height="68.8" as="geometry" />
+        </mxCell>
+        <mxCell id="8IQJVCJHFQWM88S-F640-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8IQJVCJHFQWM88S-F640-46" target="8IQJVCJHFQWM88S-F640-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
